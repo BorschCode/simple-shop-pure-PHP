@@ -25,14 +25,14 @@ It is built according to the **MVC principle**, visible from the folder structur
 
 ![Главная страница магаизна](./readme/main13.png)
 
-[![Video: Routing in Pure PHP](https://img.youtube.com/vi/AVpCHPMhmsA/0.jpg)](https://youtu.be/AVpCHPMhmsA)
-[![Video: File Handling Implementation](https://img.youtube.com/vi/X6BpvPH0Z6Y/0.jpg)](https://www.youtube.com/watch?v=X6BpvPH0Z6Y)
-[![Video: Short Presentation/Demo](https://img.youtube.com/vi/1Y5WRqS-hY4/0.jpg)](https://youtu.be/1Y5WRqS-hY4)
+| Video Link & Preview | Description |
+| :--- | :--- |
+| [![Video: Routing in Pure PHP](https://img.youtube.com/vi/AVpCHPMhmsA/0.jpg)](https://youtu.be/AVpCHPMhmsA) | **Custom Routing Logic:** A detailed look at the custom, framework-less routing implemented in the `router` class, showing how requests like `/c<id>` and `/p<id>` are handled. |
+| [![Video: File Handling Implementation](https://img.youtube.com/vi/X6BpvPH0Z6Y/0.jpg)](https://www.youtube.com/watch?v=X6BpvPH0Z6Y) | **Image Processing:** Demonstration of the file handling logic, including the automatic resizing of uploaded images into the three required sizes (110x110, 250x250, 450x450). |
+| [![Video: Short Presentation/Demo](https://img.youtube.com/vi/1Y5WRqS-hY4/0.jpg)](https://youtu.be/1Y5WRqS-hY4) | **Project Walkthrough:** A brief, comprehensive presentation of the main features, including the catalog view, product cards, and the basic user flow. |
 
 > The visual basis is taken from the WordPress theme [e-commerce](https://wordpress.org/themes/e-commerce/).
 **Bootstrap 4** is also used as an acceptable visual component, along with **FontAwesome** fonts and custom styles in `Main.CSS`.
-
-[![Video: Catalog Demo](https://img.youtube.com/vi/1t7HjcdJ4mM/0.jpg)](https://youtu.be/1t7HjcdJ4mM)
 
 ## Image Sizing:
 - One product must provide the following image sizes: 110x110, 250x250, 450x450.
