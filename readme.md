@@ -1,4 +1,4 @@
-# Test Task: Product Catalog
+# Pure PHP E-Commerce Catalog
 =============================
 ## Constraints:
 - Use of **CMS is not allowed**.
@@ -74,26 +74,25 @@ It is built according to the **MVC principle**, visible from the folder structur
 ## Project Structure Summary:
 The project consists of controller files, one for each function. Each controller/function has its own viewer. The project also includes an `assets` folder containing Bootstrap, jQuery, FontAwesome.otf, etc.
 
-```php
-File Name                    | File Content
------------------------------|-----------------------------------------------------------------------------------------
-assets                       | Folder containing local Bootstrap, datatables, jquery, styles, fonts
-index.php                    | Main front controller managing the main page landing
-models                       | Main folder with models for user/product/order management, etc.
-adminProductController.php   | Main controller file with various actions; primary function: working with the product database
-userController.php           | Main controller file with various actions; primary function: user verification.
-cartController.php           | Main controller file with various actions; primary function: editing products in the table, and adding them.
-adminCategoryController.php  | Main controller file with various actions; primary function: editing product categories.
-adminOrderController.php     | Main controller file with various actions; primary function: editing orders.
-cabinetController.php        | Main controller file with various actions; primary function: editing products in the table, and adding them.
-siteController.php           | Main controller file managing the main page.
-views                        | Folder containing all view files for data input from controllers
-upload                       | Folder where product images are uploaded.
-config                       | Folder where configuration files are located
-layouts                      | Folder where site footer and header files are located
-catalog.sql                  | Prepared database file with comments for each field
------------------------------|-----------------------------------------------------------------------------------------
-```
+## Project Structure:
+
+| File/Folder Name | Description |
+|------------------|-------------|
+| `assets/` | Contains local Bootstrap, DataTables, jQuery, styles, fonts |
+| `index.php` | Main front controller managing the application entry point |
+| `models/` | Contains models for user, product, order management |
+| `adminProductController.php` | Admin controller for product database operations |
+| `userController.php` | Controller for user authentication and verification |
+| `cartController.php` | Controller for shopping cart functionality |
+| `adminCategoryController.php` | Admin controller for product category management |
+| `adminOrderController.php` | Admin controller for order management |
+| `cabinetController.php` | Controller for user cabinet/profile management |
+| `siteController.php` | Main site controller for public pages |
+| `views/` | Contains all view templates for data presentation |
+| `upload/` | Directory for uploaded product images |
+| `config/` | Configuration files directory |
+| `layouts/` | Site header and footer template files |
+| `catalog.sql` | Database schema with field documentation |
 
 
 The main page consists of three view files loaded sequentially in the main controller: header.php + main_view.php + footer.php create the starting page. Consequently, header.php and footer.php are used for creating the site's footer and header. From the starting page, you can immediately go to the authorization page.
